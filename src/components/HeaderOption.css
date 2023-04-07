@@ -1,0 +1,22 @@
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    transition: color 0.2s ease-in;
+}
+
+.icon:hover{
+    color:black;
+
+}
+.header-icon-text{
+    font-size: 12px;
+    font-weight:400;
+}
+
+.avatar{
+    width: 25px !important;
+    height: 25px !important;
+}

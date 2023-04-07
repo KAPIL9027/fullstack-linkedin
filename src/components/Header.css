@@ -1,0 +1,38 @@
+img {
+    object-fit: contain;
+    height: 40px;
+}
+
+.header{
+   display: flex;
+   padding: 0.7rem 1rem;
+   justify-content: space-around;
+}
+.header_left{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bar{
+    margin-left: 0.5rem;
+}
+.header_search {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: #F3F2EF;
+    color: gray;
+}
+
+.header_search input{
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.header_right{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
