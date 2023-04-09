@@ -1,0 +1,42 @@
+.feed{
+    flex: 0.6;
+}
+
+
+.feed__input__container{
+    margin: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+    color: gray;
+}
+.feed__input{
+    background-color: white;
+    
+   padding: 0.5rem;
+   flex:1;
+   display: flex;
+   border: 1px solid gray;
+   border-radius: 5rem;
+
+}
+
+
+.image__options{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.feed-btn{
+display: none;
+}
+
+.feed__input__text{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: 0;
+}

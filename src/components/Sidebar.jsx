@@ -2,6 +2,12 @@ import React from 'react'
 import './Sidebar.css';
 import { Avatar } from '@mui/material';
 function Sidebar() {
+    const createRecent = (topic)=>{
+    return (<div className="recent">
+        <span className="side__hash">#</span>
+        <p>{topic}</p>
+         </div>);
+    }
   return (
     <div className="sidebar">
         <div className="sidebar-top">
@@ -32,7 +38,11 @@ function Sidebar() {
             
         </div>
         <div className="sidebar-bottom">
-            
+            <p className="recent-heading">Recent</p>
+            {createRecent("react.js")}
+            {createRecent("angular.js")}
+            {createRecent("vue.js")}
+            {createRecent("node.js")}
         </div>
     </div>
   )
