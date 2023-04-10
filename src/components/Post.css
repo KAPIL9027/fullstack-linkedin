@@ -1,0 +1,33 @@
+.post__header{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.post__header__text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.post__header__text > h5{
+    color: gray;
+}
+
+.post_body{
+    margin-bottom: 1rem;
+}
+.post-btns{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+    color: gray;
+}
+
+.post{
+    background-color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    margin: 0.6rem;
+}

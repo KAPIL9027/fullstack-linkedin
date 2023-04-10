@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header.jsx';
 import Sidebar from './components/Sidebar';
 import Feed from './components/Feed';
+import Post from './components/Post';
 function App() {
   return (
    <div className="app">

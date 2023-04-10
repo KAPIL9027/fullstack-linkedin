@@ -1,5 +1,6 @@
 .imageOption{
     display: flex;
+    gap: 0.1rem;
     padding: 10px;
     cursor: pointer;
 }
