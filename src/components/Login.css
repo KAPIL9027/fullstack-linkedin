@@ -1,0 +1,43 @@
+.login{
+    display: grid;
+    background-color: lightgray;
+    place-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.login-input{
+    width: 250px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.credentials-input{
+    background-color: rgba(13, 158, 236, 0.2);
+}
+
+.sign-in-btn{
+    background-color: #0077B5;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.register-now{
+    color:#0077B5;
+    cursor: pointer;
+}
+
+.login > img{
+    margin-bottom: 1rem;
+}
