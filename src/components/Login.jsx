@@ -25,18 +25,19 @@ function Login() {
                     displayName: fullname,
                     photoURL: photourl
     
-                })
-            }).then((userAuth)=>{
-                dispatch(
-                    login(
-                        {
-                            email: userAuth.user.email,
-                            uid:userAuth.user.uid,
-                            displayName:fullname,
-                            photoUrl:photourl,
-                        }
+                }).then(()=>{
+                    console.log(userAuth);
+                    dispatch(
+                        login(
+                            {
+                                email: userAuth.user.email,
+                                uid:userAuth.user.uid,
+                                displayName:fullname,
+                                photoUrl:photourl,
+                            }
+                        )
                     )
-                )
+                })
             }).catch((e)=>{
                 alert(e.message);
             })
