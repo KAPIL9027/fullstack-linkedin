@@ -1,11 +1,15 @@
 .feed{
     flex: 0.6;
+    margin-top: 1.65rem;
+    width: fit-content;
+    height: fit-content;
 }
 
 
 .feed__input__container{
-    margin: 0.5rem 1.2rem;
-    border-radius: 1rem;
+    margin: 0 1.2rem;
+    border-radius: 5px;
+    width: fit-content;
     background-color: white;
     padding: 1rem;
     color: gray;
@@ -35,13 +39,13 @@ display: none;
 }
 
 .feed__input__text{
-    width: 25rem;
+    width: 22.5rem;
     background: none;
     border: none;
     outline: 0;
 }
 
 .posts{
-    margin: 0.5rem 0.8rem;
+    margin: 0 0.8rem;
     padding: 10px;
 }

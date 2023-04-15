@@ -1,4 +1,6 @@
 .appbar{
+    background-color: #F3F2EF;
+    width: 100%;
+    height: fit-content;
     display: flex;
-    background-color: lightgray;
 }

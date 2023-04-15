@@ -1,9 +1,13 @@
 .sidebar{
+    position: sticky;
+    top: 80px;
     width: 13%;
     font-size: 11px;
-    background-color: lightgray;
+    background-color: #F3F2EF;
     padding: 0.1rem;
-    margin: 0.2rem;
+    margin-top: 1.3rem;
+    width: fit-content;
+    height: fit-content;
 }
 
 .sidebar-top > img{

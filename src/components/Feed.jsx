@@ -6,13 +6,15 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
+import { useSelector } from 'react-redux';
+import { selectUser } from '../features/userSlice';
 import Post from './Post.jsx';
 import {db}  from '../firebase.js';
 import firebase from 'firebase/compat/app';
 function Feed() {
   const [posts,setPosts] = useState([]);
   const [input,setInput] = useState("");
-
+  const user = useSelector(selectUser)
   useEffect(()=>{
   db.collection("posts").
   orderBy("timestamp","desc").
@@ -32,10 +34,10 @@ function Feed() {
   const sendPost = (e)=>{
    e.preventDefault();
    db.collection("posts").add({
-    name: "Kapil",
-    description: "this is a test",
+    name: user.displayName,
+    description: user.email,
     message: input,
-    photoUrl: "",
+    photoUrl: user.profileUrl || "",
     timestamp: firebase.firestore.FieldValue.serverTimestamp(),
    });
    setInput('');

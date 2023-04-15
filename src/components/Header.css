@@ -5,9 +5,14 @@ img {
 
 .header{
    display: flex;
+   position: sticky;
+   top:0;
+   width: 100%;
+   background-color: white;
    padding: 0.7rem 1rem;
    justify-content: space-around;
    border-bottom: 1px solid lightgray;
+   z-index: 10;
 }
 .header_left{
     display: flex;
@@ -19,11 +24,14 @@ img {
 }
 .header_search {
     display: flex;
+    width: 15rem;
     align-items: center;
     border-radius: 0.5rem;
     background-color: #F3F2EF;
     color: gray;
 }
+
+
 
 .header_search input{
     background: none;
