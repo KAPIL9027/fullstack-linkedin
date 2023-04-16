@@ -1,11 +1,11 @@
 .sidebar{
     position: sticky;
     top: 80px;
-    flex: 0.2;
+    flex: 0.17;
     font-size: 11px;
     background-color: #F3F2EF;
     padding: 0.1rem;
-    margin-top: 1.3rem;
+    margin-top: 1.5rem;
     width: fit-content;
     height: fit-content;
 }

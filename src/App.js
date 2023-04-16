@@ -6,7 +6,7 @@ import './App.css';
 import Header from './components/Header.jsx';
 import Sidebar from './components/Sidebar';
 import Feed from './components/Feed';
-
+import Widgets from './components/Widgets';
 import Post from './components/Post';
 import {selectUser} from './features/userSlice';
 import Login from './components/Login';
@@ -36,10 +36,10 @@ function App() {
     {!user ? (
       <Login/> ):
       (
-        <div className="appbar">
+    <div className="appbar">
     <Sidebar/>
     <Feed/>
-    
+    <Widgets/>
     </div>
       )
     }

@@ -1,6 +1,8 @@
 .feed{
-    flex: 0.6;
+    flex: 0.3;
+    margin-right: 0.5rem;
     margin-top: 1.65rem;
+    align-items: center;
     width: fit-content;
     height: fit-content;
 }
@@ -16,7 +18,7 @@
 }
 .feed__input{
     background-color: white;
-    width: 95%;
+    width: 23rem;
    padding: 0.5rem;
    flex:1;
    display: flex;
@@ -39,7 +41,7 @@ display: none;
 }
 
 .feed__input__text{
-    width: 22.5rem;
+    width: 100%;
     background: none;
     border: none;
     outline: 0;
@@ -47,5 +49,6 @@ display: none;
 
 .posts{
     margin: 0 0.8rem;
+    width: fit-content;
     padding: 10px;
 }

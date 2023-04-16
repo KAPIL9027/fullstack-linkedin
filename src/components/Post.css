@@ -21,7 +21,6 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    
     color: gray;
 }
 
@@ -30,6 +29,6 @@
     margin: 0.5rem 0;
     padding: 10px;
     border-radius: 5px;
-    width: fit-content;
+    max-width: 100%;
     height: fit-content;
 }
