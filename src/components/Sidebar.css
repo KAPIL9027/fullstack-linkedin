@@ -1,7 +1,7 @@
 .sidebar{
     position: sticky;
     top: 80px;
-    width: 13%;
+    flex: 0.2;
     font-size: 11px;
     background-color: #F3F2EF;
     padding: 0.1rem;
@@ -31,7 +31,6 @@
     align-items: center;
     width: 100%;
     padding-bottom: 1rem;
-    border: 1px solid lightgray;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: 0.1px solid lightgray;

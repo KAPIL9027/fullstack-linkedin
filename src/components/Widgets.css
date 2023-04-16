@@ -1,0 +1,6 @@
+.widgets{
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+}

@@ -8,9 +8,11 @@ import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
+import Widgets from './Widgets';
 import Post from './Post.jsx';
 import {db}  from '../firebase.js';
 import firebase from 'firebase/compat/app';
+import FlipMove from 'react-flip-move';
 function Feed() {
   const [posts,setPosts] = useState([]);
   const [input,setInput] = useState("");
@@ -60,16 +62,19 @@ function Feed() {
         <ImageOption ImageIcon={CalendarViewDayIcon} title="Write Article" color="#7FC15E"></ImageOption>
         </div>
         </div>
+        
         <div className="posts">
-          {console.log(posts)}
+        <FlipMove>
           {posts.map((post)=> (
             
            <Post key={post.id} name={post.data.name} description={post.data.description} message={post.data.message}
            photoUrl={post.photoUrl} 
             />
           ))}
-          
+          </FlipMove>
         </div>
+        
+       
     </div>
   )
 }
