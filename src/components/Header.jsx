@@ -19,7 +19,7 @@ function Header() {
   return (
    <div className="header">
     <div className="header_left">
-     <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"/>
+     <img className="linkedin-image" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"/>
      <div className="header_search">
      <SearchIcon className="bar"/>
      <input className="search-bar" type="text"/>

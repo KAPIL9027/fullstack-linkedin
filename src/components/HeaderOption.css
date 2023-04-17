@@ -20,3 +20,19 @@
     width: 25px !important;
     height: 25px !important;
 }
+
+
+@media screen and (max-width: 474px)
+{
+    .icon{
+        width: 15px;
+    }
+    
+    .header-icon-text{
+        display: none;
+    }
+
+    .header_left{
+        display: none;
+    }
+}

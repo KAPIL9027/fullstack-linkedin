@@ -16,7 +16,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
-    margin-bottom: -10px;
+    margin-bottom: -25px;
 }
 
 .user-profile{
@@ -88,4 +88,23 @@
     border-radius: 10px;
 
     background-color: whitesmoke;
+}
+
+
+@media screen and (max-width: 695px)
+{
+    .sidebar{
+        position: static;
+        display: flex;
+        justify-content: center;
+        width: 99%;
+        margin-right: 0.5rem;
+       
+    }
+    .sidebar-stats{
+        display: none;
+    }
+    .sidebar-bottom{
+        display: none;
+    }
 }

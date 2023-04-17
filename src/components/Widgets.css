@@ -39,3 +39,11 @@
     font-size: 15px !important;
     color: #0A66C2;
 }
+
+@media screen and (max-width: 800px){
+    .widgets{
+      display: none;
+    }
+    
+
+}

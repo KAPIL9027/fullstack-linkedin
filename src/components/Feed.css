@@ -2,7 +2,6 @@
     flex: 0.3;
     margin-right: 0.5rem;
     margin-top: 1.65rem;
-    align-items: center;
     width: fit-content;
     height: fit-content;
 }
@@ -18,7 +17,7 @@
 }
 .feed__input{
     background-color: white;
-    width: 23rem;
+    width: 95%;
    padding: 0.5rem;
    flex:1;
    display: flex;
@@ -52,3 +51,35 @@ display: none;
     width: fit-content;
     padding: 10px;
 }
+
+.feed__input > form{
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .feed{
+        flex: 0.5;
+    }
+}
+
+@media screen and (max-width: 695px)
+{
+    .feed{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .feed__input__container{
+        width: 90%;
+    }
+    .posts{
+        width: 99%;
+    }
+}
+
+
+
+

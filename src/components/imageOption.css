@@ -9,3 +9,10 @@
     background-color: whitesmoke;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 475px)
+{
+    .imageOption > h4{
+        display: none;
+    }
+}

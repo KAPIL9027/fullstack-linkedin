@@ -1,46 +1,37 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+LinkeIn Clone-
 
-## Available Scripts
+Introducing my LinkedIn clone - a full stack application built using React.js, Redux, and Firebase.
 
-In the project directory, you can run:
+My LinkedIn clone includes essential features like authentication, writing posts, and a feed section that displays all posts, with a UI created to closely resemble the real LinkedIn, and fully responsive for all devices.
 
-### `npm start`
+I used React.js to provide a scalable and efficient way to build user interfaces, while Redux manages global state for efficient data management. On the backend, Firebase provides a highly scalable and flexible platform for hosting applications. Firestore is used for the database, while Firebase handles all authentication processes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My LinkedIn clone is a flexible and customizable application, with the ability to add new features in the future with ease. I invite you to try it out for yourself and see how it can benefit you as a professional or job-seeker.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Join my open source community and contribute to the project, make it even better with your ideas, and help me build a LinkedIn clone that can be tailored to everyone's needs. Get started today and experience the power and flexibility of my LinkedIn clone for yourself.
 
-### `npm test`
+Demo Video- https://clipchamp.com/watch/pOpjqqF1V2I
+Live Url- https://linkedin-clone-227d6.web.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+**Client:** React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend:** Firebase- Firestore(Database), Authentication and deploy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+Desktop Home Page View:
+![App Screenshot](https://user-images.githubusercontent.com/76560065/232497559-d8196453-576b-4de6-af39-be1e43292c7d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Mobile Home Page View:
+![App Screenshot](https://user-images.githubusercontent.com/76560065/232500127-24a36b54-79c3-4227-93eb-657e189def0e.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Login or Register Page (Mobile View):
+![App Screenshot](https://user-images.githubusercontent.com/76560065/232499176-8883ab7f-995b-4738-a272-0a7a2364400d.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Login or Register Page (Desktop View):
+![App Screenshot](https://user-images.githubusercontent.com/76560065/232499495-dfb6fce8-5457-483c-b1b4-712f4885ed5a.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

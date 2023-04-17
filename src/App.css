@@ -1,3 +1,7 @@
+.app{
+    background-color: #F3F2EF;
+    overflow: none;
+}
 .appbar{
     background-color: #F3F2EF;
     height: fit-content;
@@ -6,3 +10,24 @@
     justify-content: center;
     
 }
+
+@media screen and (max-width: 695px)
+{
+    .appbar{
+        flex-direction: column;
+        align-items: center;
+        overflow: none;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    
+    .appbar{
+        
+        flex-direction: column;
+        align-items: center;
+        overflow: none;
+    }
+}
+
